@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void swt_onClick(View view) {
         Switch swt = (Switch)view;
+        //test test...
         String info = "";
         if(swt.isChecked()){
             info = "Switch is On";
